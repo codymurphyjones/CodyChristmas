@@ -12,7 +12,7 @@ import TicketType from './TicketType'
     let iconHide = (val) => {
         return val ? (<div></div>) : (<EnabledIcon show={props.show || false} />)
     }
-    return (<div style={{width:"100%", height: 100, margin: 5, border:'1px solid #000',
+    return (<div style={{width:"100%", margin: 5, border:'1px solid #000',
     display: 'flex',
     alignItems: 'center',
     justifyContent: props.alignRight ? 'space-between':'center',
