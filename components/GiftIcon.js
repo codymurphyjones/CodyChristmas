@@ -15,8 +15,8 @@ import { GoGift } from 'react-icons/go'
       maxWidth: props.alignRight ? "40px" : 'none',
       float: props.alignRight ? "right" : 'none'
   }
-
-    return (<div style={style}>{props.icon ? (<props.icon color="#146b3a" size={50} />) : (<GoGift color="#146b3a" size= {50}/>)} </div>);
+    
+    return (<div style={style}>{props.icon ? (<props.icon color="#146b3a" size={50} />) : (<props.icon color="#146b3a" size= {50}/>)} </div>);
   }
   
   export default GiftIcon

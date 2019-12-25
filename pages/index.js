@@ -11,7 +11,6 @@ let GoTo = (val) => {
 
 
 ///Icons
-import { GiLinkedRings } from 'react-icons/gi'
 import { TiGift } from 'react-icons/ti'
 import {IoMdGift} from 'react-icons/io'
 import {GoGift} from 'react-icons/go'
