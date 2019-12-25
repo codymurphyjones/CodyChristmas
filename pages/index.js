@@ -18,10 +18,10 @@ import { FaGift } from 'react-icons/fa'
 const FullHeightPage = () => (
   <div className="centered" style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Mountains+of+Christmas&display=swap" rel="stylesheet"></link>
-    <div style={{ textAlign: 'center', marginBottom: 5, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
+    <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 20, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
       Merry Christmas
                     </div>
-                    <div style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
+                    <div style={{flex: 1, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
     <a onClick={GoTo("jt")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Jt" icon={FaGift} type="Click me to see your gift!" /></a>
     <a onClick={GoTo("sam")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Samantha" icon={FaGift} type="Click me to see your gift!" /></a>
       <a onClick={GoTo("mom")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Mom" icon={FaGift} type="Click me to see your gift!" /></a>
