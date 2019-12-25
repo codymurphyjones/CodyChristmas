@@ -13,7 +13,7 @@ let url = "http://christmas-cody.herokuapp.com/gift.png"
         <br />
         <Legend />
         </div>) : (
-    <img onClick={() => { setShow(true)}} src={url}></img>
+    <img style={{maxWidth: "400px", width: "50%"}} onClick={() => { setShow(true)}} src={url}></img>
 
   )
   }
