@@ -18,7 +18,7 @@ import {MdCardTravel, MdDriveEta} from 'react-icons/md'
                     <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                            Merry Christmas, Samantha!
                     </div>
-                    <div style={{flex: 1,margin: auto, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
+                    <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
                     <TicketComponent title="A week in Austin"  icon={MdCardTravel} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
                     <TicketComponent title="A week in Austin" icon={MdDriveEta} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
