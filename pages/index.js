@@ -18,7 +18,7 @@ import { FaGift } from 'react-icons/fa'
 const FullHeightPage = () => (
   <div className="centered">
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Mountains+of+Christmas&display=swap" rel="stylesheet"></link>
-    <div style={{ textAlign: 'center', marginBottom: 15, fontSize: 50, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
+    <div style={{ textAlign: 'center', marginBottom: 5, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
       Merry Christmas
                     </div>
     <a onClick={GoTo("jt")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Jt" icon={FaGift} type="Click me to see your gift!" /></a>
