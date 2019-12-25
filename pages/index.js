@@ -16,7 +16,7 @@ import { FaGift } from 'react-icons/fa'
 
 
 const FullHeightPage = () => (
-  <div className="centered">
+  <div className="centered" style={{flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Mountains+of+Christmas&display=swap" rel="stylesheet"></link>
     <div style={{ textAlign: 'center', marginBottom: 5, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
       Merry Christmas
