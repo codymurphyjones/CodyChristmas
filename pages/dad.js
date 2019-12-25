@@ -18,7 +18,7 @@ import {MdGolfCourse } from 'react-icons/md'
                     <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                           Merry Christmas, Dad!
                     </div>
-                    <div style={{flex: 1,margin: auto, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}></div>
+                    <div style={{flex: 1,margin: auto, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
                     <TicketComponent title="Front 9 of your Choice"  icon={FaGolfBall} type="Invitation to play any front 9 holes that you choose together" />
                     <TicketComponent title="Back 9 of your Choice" icon={MdGolfCourse} type="Invitation to play any back 9 holes that you choose together" />
