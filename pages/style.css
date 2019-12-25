@@ -1,10 +1,8 @@
 .centered {
+  display: flex;
+  flex-direction: column;
   text-align:center;
-}
-
-
-
-
-html {
-  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

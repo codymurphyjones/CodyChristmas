@@ -16,7 +16,7 @@ import { GiLinkedRings, GiCardJoker } from 'react-icons/gi'
                     <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                     Merry Christmas, Brittany!
                     </div>
-                    <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
+                    <div style={{margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
                     <TicketComponent title="Get Shit Done Guy"  icon={GiLinkedRings} type="Stressful problems that need immediate solutions during the wedding?  Send them my way, this ticket is redeemable repeatedly during wedding festivities" />
                     <TicketComponent title="Practical (Joke) Partner" icon={GiCardJoker} type="I will assist you with any and all practical jokes against Jt Jones, this ticket does not expire" />
@@ -24,7 +24,7 @@ import { GiLinkedRings, GiCardJoker } from 'react-icons/gi'
                     </div>
 
               
-      <style global jsx>{`
+                    <style global jsx>{`
         html,
         body,
         body > div:first-child,
@@ -33,10 +33,7 @@ import { GiLinkedRings, GiCardJoker } from 'react-icons/gi'
             width: 100%;
             padding: 0px;
             margin: 0px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+            
             background-color: #bb2528;
             color: #f8b229
         }

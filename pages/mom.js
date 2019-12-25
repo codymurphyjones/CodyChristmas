@@ -19,7 +19,7 @@ import {AiOutlineShopping,AiOutlineShop} from 'react-icons/ai'
                     <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                            Merry Christmas, Mom!!
                     </div>
-                    <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
+                    <div style={{margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
                     <TicketComponent title="Weekend Request"  icon={MdWeekend} type="Invite me to come down and spend a weekend with you being the primary source of my attention!" />
                     <TicketComponent title="Son and Mom Day" icon={AiOutlineShopping} type="Spend a whole day together doing everything from Brunch, to shopping and movies!" />
@@ -29,7 +29,7 @@ import {AiOutlineShopping,AiOutlineShop} from 'react-icons/ai'
                     </div>
 
               
-      <style global jsx>{`
+                    <style global jsx>{`
         html,
         body,
         body > div:first-child,
@@ -38,10 +38,7 @@ import {AiOutlineShopping,AiOutlineShop} from 'react-icons/ai'
             width: 100%;
             padding: 0px;
             margin: 0px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+            
             background-color: #bb2528;
             color: #f8b229
         }

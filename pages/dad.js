@@ -18,7 +18,7 @@ import {MdGolfCourse } from 'react-icons/md'
                     <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                           Merry Christmas, Dad!
                     </div>
-                    <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
+                    <div style={{margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
                     <TicketComponent title="Front 9"  icon={FaGolfBall} type="Invitation to play any front 9 holes that you choose together" />
                     <TicketComponent title="Back 9" icon={MdGolfCourse} type="Invitation to play any back 9 holes that you choose together" />
@@ -26,7 +26,7 @@ import {MdGolfCourse } from 'react-icons/md'
                     </div>
 
               
-      <style global jsx>{`
+                    <style global jsx>{`
         html,
         body,
         body > div:first-child,
@@ -35,10 +35,7 @@ import {MdGolfCourse } from 'react-icons/md'
             width: 100%;
             padding: 0px;
             margin: 0px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+            
             background-color: #bb2528;
             color: #f8b229
         }
