@@ -8,7 +8,7 @@ let url = "http://localhost:3000/gift.png"
 
   const GiftComponent = (props) => {
     const [show,setShow] = useState(false);
-    return show ? (<div>
+    return show ? (<div style={{flex: 1, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
         {props.children}
         <br />
         <Legend />

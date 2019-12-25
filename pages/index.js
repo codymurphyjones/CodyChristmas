@@ -21,7 +21,7 @@ const FullHeightPage = () => (
     <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
       Merry Christmas
                     </div>
-                    <div style={{flex: 1, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
+                    <div style={{flex: 1,margin: auto, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
     <a onClick={GoTo("jt")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Jt" icon={FaGift} type="Click me to see your gift!" /></a>
     <a onClick={GoTo("sam")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Samantha" icon={FaGift} type="Click me to see your gift!" /></a>
       <a onClick={GoTo("mom")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Mom" icon={FaGift} type="Click me to see your gift!" /></a>

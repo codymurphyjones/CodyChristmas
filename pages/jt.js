@@ -17,7 +17,7 @@ import { FaCarCrash } from 'react-icons/fa'
                     <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                            Merry Christmas, Jt!
                     </div>
-                    <div style={{flex: 1, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}></div>
+                    <div style={{flex: 1,margin: auto, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}></div>
                     <GiftComponent>
                     <TicketComponent show={true} title="Dedicated Gaming Time"  icon={GiSawedOffShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
                     <TicketComponent show={true} title="Dedicated Gaming Time" icon={GiShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
