@@ -20,8 +20,8 @@ import {MdGolfCourse } from 'react-icons/md'
                     </div>
                     <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
-                    <TicketComponent title="Front 9 of your Choice"  icon={FaGolfBall} type="Invitation to play any front 9 holes that you choose together" />
-                    <TicketComponent title="Back 9 of your Choice" icon={MdGolfCourse} type="Invitation to play any back 9 holes that you choose together" />
+                    <TicketComponent title="Front 9"  icon={FaGolfBall} type="Invitation to play any front 9 holes that you choose together" />
+                    <TicketComponent title="Back 9" icon={MdGolfCourse} type="Invitation to play any back 9 holes that you choose together" />
                     </GiftComponent >
                     </div>
 

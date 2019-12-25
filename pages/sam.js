@@ -20,9 +20,9 @@ import {MdCardTravel, MdDriveEta} from 'react-icons/md'
                     </div>
                     <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
-                    <TicketComponent title="A week in Austin"  icon={MdCardTravel} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
-                    <TicketComponent title="A week in Austin" icon={MdDriveEta} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
-                    <TicketComponent title="A week in Austin" icon={GiHomeGarage} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
+                    <TicketComponent title="Week in Austin"  icon={MdCardTravel} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
+                    <TicketComponent title="Week in Austin" icon={MdDriveEta} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
+                    <TicketComponent title="Week in Austin" icon={GiHomeGarage} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
                     <TicketComponent title="Brother Sister Day" icon={GiBeachBucket} type="A day planned together where we try to have as much fun as possible together!" />
         
                     </GiftComponent >

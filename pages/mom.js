@@ -21,7 +21,7 @@ import {AiOutlineShopping,AiOutlineShop} from 'react-icons/ai'
                     </div>
                     <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
-                    <TicketComponent title="Free Weekend Request"  icon={MdWeekend} type="Invite me to come down and spend a weekend with you being the primary source of my attention!" />
+                    <TicketComponent title="Weekend Request"  icon={MdWeekend} type="Invite me to come down and spend a weekend with you being the primary source of my attention!" />
                     <TicketComponent title="Son and Mom Day" icon={AiOutlineShopping} type="Spend a whole day together doing everything from Brunch, to shopping and movies!" />
                     <TicketComponent title="Son and Mom Day" icon={AiOutlineShop} type="Spend a whole day together doing everything from Brunch, to shopping and movies!" />
                     <TicketComponent show={true} title="Picture Pass" icon={MdPhotoCamera} type="You know how I resist pictures?  NOT ANYMORE, for a full year starting January 1, 2019, I will participate in all of the annoying pictures" />        

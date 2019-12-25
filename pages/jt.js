@@ -19,10 +19,10 @@ import { FaCarCrash } from 'react-icons/fa'
                     </div>
                     <div style={{flex: 1,margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
                     <GiftComponent>
-                    <TicketComponent show={true} title="Dedicated Gaming Time"  icon={GiSawedOffShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
-                    <TicketComponent show={true} title="Dedicated Gaming Time" icon={GiShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
-                    <TicketComponent show={true} title="Dedicated Gaming Time" icon={GiFalling} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
-                    <TicketComponent show={true} title="Dedicated Gaming Time" icon={FaCarCrash} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
+                    <TicketComponent show={true} title="Gaming Time"  icon={GiSawedOffShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
+                    <TicketComponent show={true} title="Gaming Time" icon={GiShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
+                    <TicketComponent show={true} title="Gaming Time" icon={GiFalling} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
+                    <TicketComponent show={true} title="Gaming Time" icon={FaCarCrash} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
         
                     </GiftComponent >
                     </div>
