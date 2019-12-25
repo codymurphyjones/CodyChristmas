@@ -12,14 +12,16 @@ import { GiLinkedRings, GiCardJoker } from 'react-icons/gi'
 
   const FullHeightPage = () => (
     <div className="centered">
-                    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Mountains+of+Christmas&display=swap" rel="stylesheet"></link>
-                    <div style={{textAlign: 'center', marginBottom: 15, fontSize: 50, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive"}} >
-                           Merry Christmas, Brittany!
+                    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Mountains+of+Christmas&display=swap" rel="stylesheet"></link> 
+                    <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
+                    Merry Christmas, Brittany!
                     </div>
+                    <div style={{flex: 1, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}></div>
                     <GiftComponent>
                     <TicketComponent title="Get Shit Done Guy"  icon={GiLinkedRings} type="Stressful problems that need immediate solutions during the wedding?  Send them my way, this ticket is redeemable repeatedly during wedding festivities" />
                     <TicketComponent title="Practical (Joke) Partner" icon={GiCardJoker} type="I will assist you with any and all practical jokes against Jt Jones, this ticket does not expire" />
                     </GiftComponent >
+                    </div>
 
               
       <style global jsx>{`

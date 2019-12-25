@@ -14,9 +14,10 @@ import { FaCarCrash } from 'react-icons/fa'
   const FullHeightPage = () => (
     <div className="centered">
                     <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Mountains+of+Christmas&display=swap" rel="stylesheet"></link>
-                    <div style={{textAlign: 'center', marginBottom: 15, fontSize: 50, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive"}} >
+                    <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                            Merry Christmas, Jt!
                     </div>
+                    <div style={{flex: 1, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}></div>
                     <GiftComponent>
                     <TicketComponent show={true} title="Dedicated Gaming Time"  icon={GiSawedOffShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
                     <TicketComponent show={true} title="Dedicated Gaming Time" icon={GiShotgun} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
@@ -24,6 +25,7 @@ import { FaCarCrash } from 'react-icons/fa'
                     <TicketComponent show={true} title="Dedicated Gaming Time" icon={FaCarCrash} type="Weekend Dedicated to Gaming, Just let me know the time to log on" />
         
                     </GiftComponent >
+                    </div>
 
               
       <style global jsx>{`

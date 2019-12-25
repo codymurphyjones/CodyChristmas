@@ -15,9 +15,10 @@ import {MdCardTravel, MdDriveEta} from 'react-icons/md'
   const FullHeightPage = () => (
     <div className="centered">
                     <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Mountains+of+Christmas&display=swap" rel="stylesheet"></link>
-                    <div style={{textAlign: 'center', marginBottom: 15, fontSize: 50, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive"}} >
+                    <div style={{ textAlign: 'center', marginBottom: 5, marginTop: 30, fontSize: 40, fontWeight: 'bold', fontFamily: "'Mountains of Christmas', cursive" }} >
                            Merry Christmas, Samantha!
                     </div>
+                    <div style={{flex: 1, maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}></div>
                     <GiftComponent>
                     <TicketComponent title="A week in Austin"  icon={MdCardTravel} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
                     <TicketComponent title="A week in Austin" icon={MdDriveEta} type="Invited to spend a week with me in Austin, hanging out, exploring the city and having fun" />
@@ -25,6 +26,7 @@ import {MdCardTravel, MdDriveEta} from 'react-icons/md'
                     <TicketComponent title="Brother Sister Day" icon={GiBeachBucket} type="A day planned together where we try to have as much fun as possible together!" />
         
                     </GiftComponent >
+                    </div>
 
               
       <style global jsx>{`
