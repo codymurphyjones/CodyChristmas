@@ -12,7 +12,11 @@ let GoTo = (val) => {
 
 ///Icons
 import { GiLinkedRings } from 'react-icons/gi'
-import { FaGift } from 'react-icons/fa'
+import { TiGift } from 'react-icons/ti'
+import {IoMdGift} from 'react-icons/io'
+import {GoGift} from 'react-icons/go'
+import {FiGift} from 'react-icons/fi'
+import {AiOutlineGift} from 'react-icons/ai'
 
 
 const FullHeightPage = () => (
@@ -22,11 +26,11 @@ const FullHeightPage = () => (
       Merry Christmas
                     </div>
                     <div style={{margin: 'auto', maxWidth: "300px", flexDirection: 'column', alignItems: 'center', justifyContent: "center"}}>
-                    <a onClick={GoTo("jt")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Jt" icon={FaGift} type="Click me to see your gift!" /></a>
-    <a onClick={GoTo("sam")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Samantha" icon={FaGift} type="Click me to see your gift!" /></a>
-      <a onClick={GoTo("mom")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Mom" icon={FaGift} type="Click me to see your gift!" /></a>
-        <a onClick={GoTo("dad")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Dad" icon={FaGift} type="Click me to see your gift!" /></a>
-          <a onClick={GoTo("brittany")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Brittany" icon={FaGift} type="Click me to see your gift!" /></a>
+                    <a onClick={GoTo("jt")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Jt" icon={TiGift} type="Click me to see your gift!" /></a>
+    <a onClick={GoTo("sam")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Samantha" icon={GoGift} type="Click me to see your gift!" /></a>
+      <a onClick={GoTo("mom")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Mom" icon={FiGift} type="Click me to see your gift!" /></a>
+        <a onClick={GoTo("dad")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Dad" icon={AiOutlineGift} type="Click me to see your gift!" /></a>
+          <a onClick={GoTo("brittany")}><TicketComponent alignRight={true} hideIcon={true} title="Gift for Brittany" icon={IoMdGift} type="Click me to see your gift!" /></a>
 
           </div>
           <style global jsx>{`
