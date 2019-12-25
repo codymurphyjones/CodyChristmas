@@ -1,0 +1,30 @@
+{
+  "name": "codychristmas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codymurphyjones/CodyChristmas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codymurphyjones/CodyChristmas/issues"
+  },
+  "homepage": "https://github.com/codymurphyjones/CodyChristmas#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0"
+  }
+}
