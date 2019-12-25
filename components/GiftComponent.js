@@ -12,8 +12,9 @@ let url = "http://christmas-cody.herokuapp.com/gift.png"
         {props.children}
         <br />
         <Legend />
-        </div>) : (
-    <img style={{maxWidth: "400px", width: "50%"}} onClick={() => { setShow(true)}} src={url}></img>
+        </div>) : (<div><a onClick={() => { setShow(true)}} >
+    <img style={{maxWidth: "400px", width: "80%", marginTop: 40}} src={url}></img></a>
+    <div style={{textAlign: 'center', marginTop: 20, fontSize: 28}}>Click me to open!</div></div>
 
   )
   }
