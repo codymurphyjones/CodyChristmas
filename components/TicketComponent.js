@@ -8,9 +8,12 @@ import TicketType from './TicketType'
 
 
   const TicketComponent = (props) => {
-    const [show,setShow] = useState(false);
+    var tardate = new Date("04/09/2020");
+    var curDate = new Date();
+
+
     let iconHide = (val) => {
-        return val ? (<div></div>) : (<EnabledIcon show={props.show || false} />)
+        return val ? (<div></div>) : (<EnabledIcon show={props.show || tardate.getTime() < curDate.getTime()} />)
     }
     return (<div style={{width:"100%", margin: 5, border:'1px solid #000',
     display: 'flex',
